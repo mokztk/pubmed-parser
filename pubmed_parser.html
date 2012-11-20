@@ -1,258 +1,258 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>PubMed XML parser</title>
-	<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
-	<script type="text/javascript">
-		// HTML5 File APIを使ってファイルを読み込む
-		$(function(){
-			if(!window.File){
-				$("#selectfile").parent().html(
-					"<p>このブラウザではHTML5 File APIが使用できません。</p>"
-				);
-			}
-			$("#selectfile").change(function(e){
-				files = e.target.files;
-				reader = new FileReader();
-				reader.onload = function(re){			// 読み込み成功
-					// XMLから必要なデータを取り出す
-					parseArticles(re.target.result);
-					
-					// 文献リスト用テンプレート（後述）を渡して表を作る
-					
-					// 業績集ファイルメーカー登録用テンプレート例
-					var tbl_template  = "<tr><td>{number}</td><td>{j_abbr}</td><td>{title}</td>";
-					    tbl_template += "<td>{j_year}</td><td>{j_vol}</td><td>{j_no}</td>";
-					    tbl_template += "<td>{j_page}</td><td>{authors}</td><td>{1st_auth}</td>";
-					    tbl_template += "<td>{co_auth}</td></tr>";
-					
-					// 業績集打ち出し用テンプレート例
-					//	var tbl_template  = "<tr><td>";
-					//	    tbl_template += "{authors}：{title}．{j_abbr} {j_vol_no}:{j_page}, {j_year}.";
-					//	   tbl_template += "</td></tr>";
-					
-					$("#outputarea").html(createArticleTable(tbl_template));
-				};
-				reader.onerror = function(re){			// 読み込みエラー
-					alert(files[0] + "を読み込めません。");
-				};
-				reader.readAsText(files[0]);			// 読み込むファイルは1つだけ
-			});
-		});
-		
-		// -------------------------------------------------------------------------
-		// parseArticles : 読み込んだPubMed XMLを処理してオブジェクトに変換
-		// -------------------------------------------------------------------------
-		//	戻り値なし。グローバルオブジェクトのarticlelistに結果を格納する
-		//
-		//	articlelist
-		//		.number						: 文献数
-		//		[0 ～ number-1] 
-		//			.journal
-		//				.abbr				: 雑誌名（ISO標準の略称）
-		//				.name				: 雑誌名（正式名）
-		//				.year				: 出版年
-		//				.month				: 月
-		//				.vol				: 巻
-		//				.no					: 号
-		//				.page				: ページ番号（MEDLINE形式の123-45）
-		//			.title					: 論文タイトル
-		//			.author
-		//				.number				: 著者の人数
-		//				[0 ～ number-1]
-		//					.shortname		: 最初以外はイニシャル
-		//					.fullname		: フルネーム
-		//
-		//	※番号は0から始まり(文献数or著者数)-1までとなることに注意
-		//	ex.
-		//		articlelist[0].author[0].fullname	: 1報目の筆頭著者のフルネーム
-		//		articlelist[2].journal.abbr			: 3報目の雑誌略名
-		// -------------------------------------------------------------------------
-		parseArticles = function(xmldata){
-			// XMLファイルから文献の基本情報を抽出
-			var pm_data;
-			try {pm_data = $.parseXML(xmldata)} catch(e){
-				alert("XMLファイルでないか、内容に問題があります。");
-				return false;
-			};
-			var pm_articles = $(pm_data).find("Article");
-			
-			// 作業スペースの確保
-			var i, j;
-			var author  = {};
-			var journal = {};
-			var article = {};
-			
-			// 文献リストを初期化し論文数を記録
-			articlelist = {}
-			articlelist.number = pm_articles.length;
-			
-			// 抽出作業
-			for (i = 0; i < pm_articles.length; i++){
-				
-				// 初期化
-				journal = {name: "", abbr: "", year: "", month: "", vol: "", no: "", page: ""}
-				article = {author: {}, title: "", journal: {}};
-				
-				// 雑誌情報の取得
-				journal = {
-					abbr	: $("Journal > ISOAbbreviation"	, pm_articles[i]).text(),
-					name	: $("Journal > Title"			, pm_articles[i]).text(),
-					year	: $("PubDate > Year"			, pm_articles[i]).text(),
-					month	: $("PubDate > Month"			, pm_articles[i]).text(),
-					vol		: $("Volume"					, pm_articles[i]).text(),
-					no		: $("Issue"						, pm_articles[i]).text(),
-					page	: $("MedlinePgn"				, pm_articles[i]).text()
-				};
-				article.journal = journal;
-				article.title   = $("ArticleTitle", pm_articles[i]).text();
-				
-				// 著者リストの作成
-				for (j = 0; j < $("Author", pm_articles[i]).length; j++){
-					// 1名分を取得
-					author  = {fullname: "", shortname: ""};
-					var authname = $("Author", pm_articles[i])[j];
-					
-					// 順番に著者リストに追加
-					author.shortname = $("LastName", authname).text() + " " + $("Initials", authname).text();
-					author.fullname  = $("LastName", authname).text() + " " + $("ForeName", authname).text();
-					article.author[j] = author;
-				}
-				
-				// 著者人数を記録
-				article.author.number = $("Author", pm_articles[i]).length;
-				
-				// 論文リストに追加
-				articlelist[i] = article;
-			}
-			// i のループが終わるとarticlelistに全文献の情報が格納される。
-			// articlelist はグローバルオブジェクトなので return の処理はしない。
-		}
-		
-		// -------------------------------------------------------------------------
-		// createArticleTable : 受け取ったテンプレートにそって文献リストを作る
-		// -------------------------------------------------------------------------
-		//  テンプレート中の下記の文字列は各論文の情報で置換される
-		//  	{number}		通し番号
-		//  	{authors}		全著者　（短縮形式）
-		//  	{1st_auth}		筆頭著者（短縮形式）
-		//  	{co_auth}		共著者　（短縮形式）
-		//  	{authors_f}		全著者　（フルネーム）
-		//  	{1st_auth_f}	筆頭著者（フルネーム）
-		//  	{co_auth_f}		共著者　（フルネーム）
-		//  	{j_abbr}		雑誌名　（短縮形式）
-		//  	{j_name}		雑誌名　（正式名称）
-		//  	{j_year}		発行年
-		//  	{j_month}		発行月
-		//  	{j_vol}			巻
-		//  	{j_no}			号
-		//  	{j_vol_no}		巻号（号は情報がある場合のみ括弧付きで付記）
-		//  	{j_page}		ページ番号
-		//  	{title}			論文タイトル
-		// -------------------------------------------------------------------------
-		//  戻り値：文献リストのテーブルを表示するHTML
-		// -------------------------------------------------------------------------
-		createArticleTable = function(tbl_template){
-			// 見出し行のテンプレート
-			var th_template = tbl_template.replace(/td/g, "th");
-			
-			// 作業用
-			var i, j;
-			var tablehtml = "";
-			var auth_1st  = "", auth_1st_f = "";
-			var co_auth   = "", co_auth_f  = "";
-			var authors   = "", authors_f  = "";
-			var vol_no    = "";
-			
-			// htmlをつくる
-			
-			// tableの先頭部分
-			tablehtml  = "<table>\n";
-			tablehtml += th_template.replace(/{number}/g,		"No.")
-									.replace(/{authors}/g,		"全著者")
-									.replace(/{1st_auth}/g,		"筆頭著者")
-									.replace(/{co_auth}/g,		"共著者")
-									.replace(/{authors_f}/g,	"全著者")
-									.replace(/{1st_auth_f}/g,	"筆頭著者")
-									.replace(/{co_auth_f}/g,	"共著者")
-									.replace(/{j_abbr}/g,		"雑誌略名")
-									.replace(/{j_name}/g,		"雑誌名")
-									.replace(/{j_year}/g,		"発行年")
-									.replace(/{j_month}/g,		"月")
-									.replace(/{j_vol}/g,		"巻")
-									.replace(/{j_no}/g,			"号")
-									.replace(/{j_vol_no}/g,		"巻号")
-									.replace(/{j_page}/g,		"Page")
-									.replace(/{title}/g,		"題名");
-			tablehtml += "\n";
-			
-			// 各文献の記事
-			for (i = 0; i < articlelist.number; i++){
-				// 筆頭著者と共著者を分けてリストを作り、全著者リストも作る
-				co_auth    = "";
-				co_auth_f  = "";
-				auth_1st   = articlelist[i].author[0].shortname;
-				auth_1st_f = articlelist[i].author[0].fullname;
-				for (j = 1; j < articlelist[i].author.number -1; j++){
-					co_auth   += articlelist[i].author[j].shortname + ", ";
-					co_auth_f += articlelist[i].author[j].fullname + ", ";
-				}
-				if (articlelist[i].author.number > 1){
-					co_auth   += articlelist[i].author[articlelist[i].author.number -1].shortname;
-					co_auth_f += articlelist[i].author[articlelist[i].author.number -1].fullname;
-				}
-				if (articlelist[i].author.number>1){
-					authors    = auth_1st   +  ", " + co_auth;
-					authors_f  = auth_1st_f +  ", " + co_auth_f;
-				} else {
-					authors    = auth_1st;
-					authors_f  = auth_1st_f;
-				}
-				
-				// 巻号
-				if (articlelist[i].journal.no >= 1){
-					vol_no = articlelist[i].journal.vol + "(" + articlelist[i].journal.no + ")";
-				} else {
-					vol_no = articlelist[i].journal.vol;
-				}
-				
-				// 各文献について書き込み
-				tablehtml += tbl_template.replace(/{number}/g,		i+1)
-										.replace(/{authors}/g,		authors)
-										.replace(/{1st_auth}/g,		auth_1st)
-										.replace(/{co_auth}/g,		co_auth)
-										.replace(/{authors_f}/g,	authors_f)
-										.replace(/{1st_auth_f}/g,	auth_1st_f)
-										.replace(/{co_auth_f}/g,	co_auth_f)
-										.replace(/{j_abbr}/g,		articlelist[i].journal.abbr)
-										.replace(/{j_name}/g,		articlelist[i].journal.name)
-										.replace(/{j_year}/g,		articlelist[i].journal.year)
-										.replace(/{j_month}/g,		articlelist[i].journal.month)
-										.replace(/{j_vol}/g,		articlelist[i].journal.vol)
-										.replace(/{j_no}/g,			articlelist[i].journal.no)
-										.replace(/{j_vol_no}/g,		vol_no)
-										.replace(/{j_page}/g,		articlelist[i].journal.page)
-										.replace(/{title}/g,		articlelist[i].title);
-				tablehtml += "\n";
-			}
-			
-			// table要素を閉じて出来上がったHTMLを返す
-			tablehtml += "</table>";
-			return tablehtml;
-		}
-	</script>
-	<style type="text/css">
-		td {
-			border: solid thin #cccccc;
-			padding: 5px;
-		}
-		th {
-			border: solid thin #cccccc;
-			padding: 5px;
-			background: #cccc80;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <title>PubMed XML parser</title>
+    <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+        // HTML5 File APIを使ってファイルを読み込む
+        $(function(){
+            if(!window.File){
+                $("#selectfile").parent().html(
+                    "<p>このブラウザではHTML5 File APIが使用できません。</p>"
+                );
+            }
+            $("#selectfile").change(function(e){
+                files = e.target.files;
+                reader = new FileReader();
+                reader.onload = function(re){           // 読み込み成功
+                    // XMLから必要なデータを取り出す
+                    parseArticles(re.target.result);
+                    
+                    // 文献リスト用テンプレート（後述）を渡して表を作る
+                    
+                    // 業績集ファイルメーカー登録用テンプレート例
+                    var tbl_template  = "<tr><td>{number}</td><td>{j_abbr}</td><td>{title}</td>";
+                        tbl_template += "<td>{j_year}</td><td>{j_vol}</td><td>{j_no}</td>";
+                        tbl_template += "<td>{j_page}</td><td>{authors}</td><td>{1st_auth}</td>";
+                        tbl_template += "<td>{co_auth}</td></tr>";
+                    
+                    // 業績集打ち出し用テンプレート例
+                    //  var tbl_template  = "<tr><td>";
+                    //      tbl_template += "{authors}：{title}．{j_abbr} {j_vol_no}:{j_page}, {j_year}.";
+                    //     tbl_template += "</td></tr>";
+                    
+                    $("#outputarea").html(createArticleTable(tbl_template));
+                };
+                reader.onerror = function(re){          // 読み込みエラー
+                    alert(files[0] + "を読み込めません。");
+                };
+                reader.readAsText(files[0]);            // 読み込むファイルは1つだけ
+            });
+        });
+        
+        // -------------------------------------------------------------------------
+        // parseArticles : 読み込んだPubMed XMLを処理してオブジェクトに変換
+        // -------------------------------------------------------------------------
+        //  戻り値なし。グローバルオブジェクトのarticlelistに結果を格納する
+        //
+        //  articlelist
+        //      .number                     : 文献数
+        //      [0 ～ number-1] 
+        //          .journal
+        //              .abbr               : 雑誌名（ISO標準の略称）
+        //              .name               : 雑誌名（正式名）
+        //              .year               : 出版年
+        //              .month              : 月
+        //              .vol                : 巻
+        //              .no                 : 号
+        //              .page               : ページ番号（MEDLINE形式の123-45）
+        //          .title                  : 論文タイトル
+        //          .author
+        //              .number             : 著者の人数
+        //              [0 ～ number-1]
+        //                  .shortname      : 最初以外はイニシャル
+        //                  .fullname       : フルネーム
+        //
+        //  ※番号は0から始まり(文献数or著者数)-1までとなることに注意
+        //  ex.
+        //      articlelist[0].author[0].fullname   : 1報目の筆頭著者のフルネーム
+        //      articlelist[2].journal.abbr         : 3報目の雑誌略名
+        // -------------------------------------------------------------------------
+        parseArticles = function(xmldata){
+            // XMLファイルから文献の基本情報を抽出
+            var pm_data;
+            try {pm_data = $.parseXML(xmldata)} catch(e){
+                alert("XMLファイルでないか、内容に問題があります。");
+                return false;
+            };
+            var pm_articles = $(pm_data).find("Article");
+            
+            // 作業スペースの確保
+            var i, j;
+            var author  = {};
+            var journal = {};
+            var article = {};
+            
+            // 文献リストを初期化し論文数を記録
+            articlelist = {}
+            articlelist.number = pm_articles.length;
+            
+            // 抽出作業
+            for (i = 0; i < pm_articles.length; i++){
+                
+                // 初期化
+                journal = {name: "", abbr: "", year: "", month: "", vol: "", no: "", page: ""}
+                article = {author: {}, title: "", journal: {}};
+                
+                // 雑誌情報の取得
+                journal = {
+                    abbr    : $("Journal > ISOAbbreviation" , pm_articles[i]).text(),
+                    name    : $("Journal > Title"           , pm_articles[i]).text(),
+                    year    : $("PubDate > Year"            , pm_articles[i]).text(),
+                    month   : $("PubDate > Month"           , pm_articles[i]).text(),
+                    vol     : $("Volume"                    , pm_articles[i]).text(),
+                    no      : $("Issue"                     , pm_articles[i]).text(),
+                    page    : $("MedlinePgn"                , pm_articles[i]).text()
+                };
+                article.journal = journal;
+                article.title   = $("ArticleTitle", pm_articles[i]).text();
+                
+                // 著者リストの作成
+                for (j = 0; j < $("Author", pm_articles[i]).length; j++){
+                    // 1名分を取得
+                    author  = {fullname: "", shortname: ""};
+                    var authname = $("Author", pm_articles[i])[j];
+                    
+                    // 順番に著者リストに追加
+                    author.shortname = $("LastName", authname).text() + " " + $("Initials", authname).text();
+                    author.fullname  = $("LastName", authname).text() + " " + $("ForeName", authname).text();
+                    article.author[j] = author;
+                }
+                
+                // 著者人数を記録
+                article.author.number = $("Author", pm_articles[i]).length;
+                
+                // 論文リストに追加
+                articlelist[i] = article;
+            }
+            // i のループが終わるとarticlelistに全文献の情報が格納される。
+            // articlelist はグローバルオブジェクトなので return の処理はしない。
+        }
+        
+        // -------------------------------------------------------------------------
+        // createArticleTable : 受け取ったテンプレートにそって文献リストを作る
+        // -------------------------------------------------------------------------
+        //  テンプレート中の下記の文字列は各論文の情報で置換される
+        //      {number}        通し番号
+        //      {authors}       全著者　（短縮形式）
+        //      {1st_auth}      筆頭著者（短縮形式）
+        //      {co_auth}       共著者　（短縮形式）
+        //      {authors_f}     全著者　（フルネーム）
+        //      {1st_auth_f}    筆頭著者（フルネーム）
+        //      {co_auth_f}     共著者　（フルネーム）
+        //      {j_abbr}        雑誌名　（短縮形式）
+        //      {j_name}        雑誌名　（正式名称）
+        //      {j_year}        発行年
+        //      {j_month}       発行月
+        //      {j_vol}         巻
+        //      {j_no}          号
+        //      {j_vol_no}      巻号（号は情報がある場合のみ括弧付きで付記）
+        //      {j_page}        ページ番号
+        //      {title}         論文タイトル
+        // -------------------------------------------------------------------------
+        //  戻り値：文献リストのテーブルを表示するHTML
+        // -------------------------------------------------------------------------
+        createArticleTable = function(tbl_template){
+            // 見出し行のテンプレート
+            var th_template = tbl_template.replace(/td/g, "th");
+            
+            // 作業用
+            var i, j;
+            var tablehtml = "";
+            var auth_1st  = "", auth_1st_f = "";
+            var co_auth   = "", co_auth_f  = "";
+            var authors   = "", authors_f  = "";
+            var vol_no    = "";
+            
+            // htmlをつくる
+            
+            // tableの先頭部分
+            tablehtml  = "<table>\n";
+            tablehtml += th_template.replace(/{number}/g,       "No.")
+                                    .replace(/{authors}/g,      "全著者")
+                                    .replace(/{1st_auth}/g,     "筆頭著者")
+                                    .replace(/{co_auth}/g,      "共著者")
+                                    .replace(/{authors_f}/g,    "全著者")
+                                    .replace(/{1st_auth_f}/g,   "筆頭著者")
+                                    .replace(/{co_auth_f}/g,    "共著者")
+                                    .replace(/{j_abbr}/g,       "雑誌略名")
+                                    .replace(/{j_name}/g,       "雑誌名")
+                                    .replace(/{j_year}/g,       "発行年")
+                                    .replace(/{j_month}/g,      "月")
+                                    .replace(/{j_vol}/g,        "巻")
+                                    .replace(/{j_no}/g,         "号")
+                                    .replace(/{j_vol_no}/g,     "巻号")
+                                    .replace(/{j_page}/g,       "Page")
+                                    .replace(/{title}/g,        "題名");
+            tablehtml += "\n";
+            
+            // 各文献の記事
+            for (i = 0; i < articlelist.number; i++){
+                // 筆頭著者と共著者を分けてリストを作り、全著者リストも作る
+                co_auth    = "";
+                co_auth_f  = "";
+                auth_1st   = articlelist[i].author[0].shortname;
+                auth_1st_f = articlelist[i].author[0].fullname;
+                for (j = 1; j < articlelist[i].author.number -1; j++){
+                    co_auth   += articlelist[i].author[j].shortname + ", ";
+                    co_auth_f += articlelist[i].author[j].fullname + ", ";
+                }
+                if (articlelist[i].author.number > 1){
+                    co_auth   += articlelist[i].author[articlelist[i].author.number -1].shortname;
+                    co_auth_f += articlelist[i].author[articlelist[i].author.number -1].fullname;
+                }
+                if (articlelist[i].author.number>1){
+                    authors    = auth_1st   +  ", " + co_auth;
+                    authors_f  = auth_1st_f +  ", " + co_auth_f;
+                } else {
+                    authors    = auth_1st;
+                    authors_f  = auth_1st_f;
+                }
+                
+                // 巻号
+                if (articlelist[i].journal.no >= 1){
+                    vol_no = articlelist[i].journal.vol + "(" + articlelist[i].journal.no + ")";
+                } else {
+                    vol_no = articlelist[i].journal.vol;
+                }
+                
+                // 各文献について書き込み
+                tablehtml += tbl_template.replace(/{number}/g,      i+1)
+                                        .replace(/{authors}/g,      authors)
+                                        .replace(/{1st_auth}/g,     auth_1st)
+                                        .replace(/{co_auth}/g,      co_auth)
+                                        .replace(/{authors_f}/g,    authors_f)
+                                        .replace(/{1st_auth_f}/g,   auth_1st_f)
+                                        .replace(/{co_auth_f}/g,    co_auth_f)
+                                        .replace(/{j_abbr}/g,       articlelist[i].journal.abbr)
+                                        .replace(/{j_name}/g,       articlelist[i].journal.name)
+                                        .replace(/{j_year}/g,       articlelist[i].journal.year)
+                                        .replace(/{j_month}/g,      articlelist[i].journal.month)
+                                        .replace(/{j_vol}/g,        articlelist[i].journal.vol)
+                                        .replace(/{j_no}/g,         articlelist[i].journal.no)
+                                        .replace(/{j_vol_no}/g,     vol_no)
+                                        .replace(/{j_page}/g,       articlelist[i].journal.page)
+                                        .replace(/{title}/g,        articlelist[i].title);
+                tablehtml += "\n";
+            }
+            
+            // table要素を閉じて出来上がったHTMLを返す
+            tablehtml += "</table>";
+            return tablehtml;
+        }
+    </script>
+    <style type="text/css">
+        td {
+            border: solid thin #cccccc;
+            padding: 5px;
+        }
+        th {
+            border: solid thin #cccccc;
+            padding: 5px;
+            background: #cccc80;
+        }
+    </style>
 </head>
 <body>
 
