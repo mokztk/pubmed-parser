@@ -1,0 +1,3042 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2012//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_120101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22441635</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>05</Month>
+            <Day>28</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>09</Month>
+            <Day>21</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1440-1592</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>61</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Allergology international : official journal of the Japanese Society of Allergology</Title>
+                <ISOAbbreviation>Allergol Int</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effect of switching from salmeterol/fluticasone to formoterol/ budesonide combinations in patients with uncontrolled asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>323-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Combination therapy with an inhaled corticosteroid (ICS) and a long-acting β(2)-agonist (LABA) in a single inhaler is the mainstay of asthma management and salmeterol/fluticasone combination (SFC) and fixed-dose formoterol/budesonide combination (FBC) are currently available in Japan; however, there is nothing to choose between the two. The purpose of this study was to clarify the effect of switching from SFC to FBC in patients with asthma not adequately controlled under the former treatment regimen.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">This was a prospective, multicenter, open-label, uncontrolled longitudinal study in 87 adult patients with an Asthma Control Questionnaire, 5-item version (ACQ5) score of greater than 0.75 under treatment with SFC 50/250μg one inhalation twice daily (bid). SFC was switched to FBC 4.5/160μg two inhalations bid. Study outcomes included ACQ5 score, peak expiratory flow (PEF), FEV(1), and fractional exhaled nitric oxide (FeNO) at the end of treatment period.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Eighty-three patients completed the study. ACQ5 scores improved and exceeded the clinically meaningful difference after 12 weeks of treatment and well-controlled asthma (ACQ5 score ≤0.75) was attained in 37 (44.6%) patients. Minimum and maximum PEF and FEV(1) values improved significantly, but not FeNO values, after switching from SFC to FBC.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Switching ICS/LABA combination therapy is a useful option in the management of asthma that is not optimally controlled.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Respiratory Medicine, Hamamatsu University School of Medicine, Shizuoka, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Akamatsu</LastName>
+                    <ForeName>Taisuke</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>Toshihiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kato</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hashimoto</LastName>
+                    <ForeName>Dai</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yasui</LastName>
+                    <ForeName>Hideki</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yokomura</LastName>
+                    <ForeName>Koshi</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayakawa</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ide</LastName>
+                    <ForeName>Kyotaro</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Toyoshima</LastName>
+                    <ForeName>Mikio</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuroishi</LastName>
+                    <ForeName>Shigeki</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yasuda</LastName>
+                    <ForeName>Kazumasa</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suganuma</LastName>
+                    <ForeName>Hideki</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yamada</LastName>
+                    <ForeName>Takashi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Masuda</LastName>
+                    <ForeName>Masafumi</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Clinical Trial</PublicationType>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Multicenter Study</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>03</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Japan</Country>
+            <MedlineTA>Allergol Int</MedlineTA>
+            <NlmUniqueID>9616296</NlmUniqueID>
+            <ISSNLinking>1323-8930</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Androstadienes</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Ethanolamines</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>18559-94-9</RegistryNumber>
+                <NameOfSubstance>Albuterol</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>51333-22-3</RegistryNumber>
+                <NameOfSubstance>Budesonide</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>73573-87-2</RegistryNumber>
+                <NameOfSubstance>formoterol</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>89365-50-4</RegistryNumber>
+                <NameOfSubstance>salmeterol</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>90566-53-3</RegistryNumber>
+                <NameOfSubstance>fluticasone</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Albuterol</DescriptorName>
+                <QualifierName MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="N">adverse effects</QualifierName>
+                <QualifierName MajorTopicYN="Y">analogs &amp; derivatives</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Androstadienes</DescriptorName>
+                <QualifierName MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="N">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Budesonide</DescriptorName>
+                <QualifierName MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="N">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Drug Substitution</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Drug Therapy, Combination</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Ethanolamines</DescriptorName>
+                <QualifierName MajorTopicYN="Y">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="N">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Respiratory Function Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Treatment Failure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>10</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>9</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">061020323</ArticleId>
+            <ArticleId IdType="doi">10.2332/allergolint.11-OA-0384</ArticleId>
+            <ArticleId IdType="pubmed">22441635</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">21908266</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>02</Month>
+            <Day>07</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>03</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1535-4989</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>46</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>American journal of respiratory cell and molecular biology</Title>
+                <ISOAbbreviation>Am. J. Respir. Cell Mol. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mouse lung CD103+ and CD11bhigh dendritic cells preferentially induce distinct CD4+ T-cell responses.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>165-72</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Mouse lung dendritic cells (LDCs) have been recently shown to contain two major subpopulations: CD103(+) CD11b(low or negative) (CD103(+) LDCs) and CD103(-) CD11b(high) LDCs (CD11b(high) LDCs). Although several studies have demonstrated functional differences between them, it is unclear whether the subpopulations induce distinct T helper (Th) cell responses. The present study was conducted to examine whether CD103(+) and CD11b(high) LDCs preferentially generate different Th responses. Naive DO11.10 CD4(+) T cells were primed with CD103(+) or CD11b(high) LDCs obtained from normal BALB/c mice. The primed CD4(+) T cells were restimulated, and their cytokine secretions were assessed. The expression of intracellular cytokines and the mRNA levels of chemokine receptors were also measured. We found that the CD4(+) T cells primed with CD103(+) LDCs secreted significantly larger amounts of IFN-γ and IL-17A, whereas those primed with CD11b(high) LDCs released significantly higher levels of IL-4, IL-6, and IL-10. Intracellular cytokine assay showed that CD103(+) LDCs induced greater frequencies of CD4(+) T cells producing IFN-γ and IL-17A, whereas CD11b(high) LDCs were more efficient at inducing CD4(+) T cells producing IL-4 and IL-10. The mRNA levels of CXCR3 and CCR5, which are expressed preferentially in Th1 cells, were significantly higher in CD4(+) T cells primed with CD103(+) LDCs. The mRNA levels of CXCR4 and CCR4, which are expressed primarily in Th2 cells, were significantly greater in those primed with CD11b(high) LDCs. These data suggest that mouse CD103(+) LDCs predominantly elicit Th1 and Th17 responses, whereas CD11b(high) LDCs primarily provoke a Th2 response under the steady state.</AbstractText>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, Hamamatsu, Japan. suda@hama-med.ac.jp</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Furuhashi</LastName>
+                    <ForeName>Kazuki</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hasegawa</LastName>
+                    <ForeName>Hirotsugu</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Yuzo</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hashimoto</LastName>
+                    <ForeName>Dai</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Enomoto</LastName>
+                    <ForeName>Noriyuki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujisawa</LastName>
+                    <ForeName>Tomoyuki</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shibata</LastName>
+                    <ForeName>Kiyoshi</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Hirotoshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2011</Year>
+                <Month>08</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Am J Respir Cell Mol Biol</MedlineTA>
+            <NlmUniqueID>8917225</NlmUniqueID>
+            <ISSNLinking>1044-1549</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antigens, CD</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antigens, CD11</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Integrin alpha Chains</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>alpha E integrins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antigens, CD</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antigens, CD11</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">CD4-Positive T-Lymphocytes</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Dendritic Cells</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Enzyme-Linked Immunosorbent Assay</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Integrin alpha Chains</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lung</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice, Inbred BALB C</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Real-Time Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2011</Year>
+                <Month>8</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">2011-0070OC</ArticleId>
+            <ArticleId IdType="doi">10.1165/rcmb.2011-0070OC</ArticleId>
+            <ArticleId IdType="pubmed">21908266</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">23064571</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>10</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1349-7235</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>51</Volume>
+                    <Issue>20</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Internal medicine (Tokyo, Japan)</Title>
+                <ISOAbbreviation>Intern. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Ulcerating bronchitis caused by cytomegalovirus in a patient with polymyositis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2933-6</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>We herein report a case of cytomegalovirus (CMV) bronchitis in a 62-year-old woman with polymyositis. She presented with respiratory symptoms and CMV antigenemia while undergoing immunosuppressive therapy with methotrexate (MTX) and prednisolone (PSL). Bronchoscopy was performed, which revealed an ulceration of the left main bronchus. A mucosal biopsy confirmed CMV infection, and the patient was diagnosed with CMV ulcerating bronchitis. The administration of ganciclovir improved the lesion, and the CMV antigenemia disappeared. Endobronchial ulceration should be considered in the differential diagnosis of CMV disease.</AbstractText>
+            </Abstract>
+            <Affiliation>Internal Medicine 2 (Divisions of Endocrinology &amp; Metabolism, Respiratology &amp; Hepatology), Hamamatsu University School of Medicine, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hozumi</LastName>
+                    <ForeName>Hironao</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujisawa</LastName>
+                    <ForeName>Tomoyuki</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuroishi</LastName>
+                    <ForeName>Shigeki</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Japan</Country>
+            <MedlineTA>Intern Med</MedlineTA>
+            <NlmUniqueID>9204241</NlmUniqueID>
+            <ISSNLinking>0918-2918</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">DN/JST.JSTAGE/internalmedicine/51.8497</ArticleId>
+            <ArticleId IdType="pubmed">23064571</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">22727949</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>10</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-6513</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of pain and symptom management</Title>
+                <ISOAbbreviation>J Pain Symptom Manage</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Novel patch for transdermal administration of morphine.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>479-85</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jpainsymman.2011.10.022</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0885-3924(12)00171-6</ELocationID>
+            <Abstract>
+                <AbstractText Label="CONTEXT" NlmCategory="BACKGROUND">Transdermal absorption of morphine into the systemic circulation through intact skin has not been reported.</AbstractText>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">To describe a novel transdermal formulation for a morphine hydrochloride patch consisting of polyethylene sponge foam as the retaining agent and adjusted proportions of morphine hydrochloride and adjunctive drugs.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this study, the transdermal morphine hydrochloride patch was administered to intact skin in five subjects and the plasma concentrations of morphine and its metabolites were examined.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Morphine was absorbed systemically, producing plasma morphine concentrations above the assay detection limit by at least 24 hours after attachment of patches containing a total dose of 180mg of morphine. The levels gradually increased in a time-dependent manner without serious events. The area under the concentration-time curve from 0 to 72 hours (AUC(0-72)) values for morphine, morphine-6-glucuronide, and morphine-3-glucuronide were 60.4±13.4, 133.7±17.4, and 861.5±126.7ng·h/mL, respectively. The mean plasma area under the concentration-time curve from 0 to 72 hours ratio for morphine-6-glucuronide relative to morphine was 2.64.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">These data provide useful information for developing a transdermal morphine system.</AbstractText>
+                <CopyrightInformation>Copyright © 2012 U.S. Cancer Pain Relief Committee. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Clinical Pharmacology and Therapeutics, Hamamatsu University School of Medicine, Hamamatsu, Japan. Electronic address: inui@hama-med.ac.jp.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kato</LastName>
+                    <ForeName>Tatsuhisa</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Uchida</LastName>
+                    <ForeName>Shinya</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Takeuchi</LastName>
+                    <ForeName>Kazuhiko</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kimura</LastName>
+                    <ForeName>Takahito</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Watanabe</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>06</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Pain Symptom Manage</MedlineTA>
+            <NlmUniqueID>8605836</NlmUniqueID>
+            <ISSNLinking>0885-3924</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>8</Month>
+                <Day>9</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>10</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>10</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0885-3924(12)00171-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jpainsymman.2011.10.022</ArticleId>
+            <ArticleId IdType="pubmed">22727949</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22451472</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>09</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1758-535X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>67</Volume>
+                    <Issue>10</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Oct</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The journals of gerontology. Series A, Biological sciences and medical sciences</Title>
+                <ISOAbbreviation>J. Gerontol. A Biol. Sci. Med. Sci.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Expression and function of multidrug resistance protein 1 and multidrug resistance-associated protein 1 in lung dendritic cells from aging mice.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1049-55</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1093/gerona/gls069</ELocationID>
+            <Abstract>
+                <AbstractText>Multidrug resistance protein 1 and multidrug resistance-associated protein 1 are transporters that efflux diverse xenobiotics from cells. We investigated changes in the expression and activity of multidrug resistance protein 1 and multidrug resistance-associated protein 1 in highly purified lung dendritic cells (LDCs) during aging using magnetic and flow cytometric cell sorting. Multidrug resistance protein 1 blockade by the specific inhibitor reduced the percentage of rhodamine 123(low) cells in LDCs from aged mice (54.8% ± 2.6% to 13.2% ± 2.5%, p &lt; .01). The difference in the proportions of rhodamine 123(low) cells in aged LDCs was more apparent than that in LDCs from young mice (p &lt; .05). The multidrug resistance-associated protein 1-specific inhibitor reduced the percentage of Fluo-3(low) cells in aged LDCs (60.8% ± 5.3% to 25.8% ± 7.5%, p &lt; .01). The difference in the proportions of Fluo-3(low) cells in aged LDCs was smaller than that in young LDCs (p &lt; .05). These data showed that LDCs from aged mice exhibited multidrug resistance protein 1- and multidrug resistance-associated protein 1-mediated efflux and that the age-associated changes differed according to transporters.</AbstractText>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, Hamamatsu, Japan. inui@hama-med.ac.jp</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hasegawa</LastName>
+                    <ForeName>Hirotsugu</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Watanabe</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>03</Month>
+                <Day>26</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Gerontol A Biol Sci Med Sci</MedlineTA>
+            <NlmUniqueID>9502837</NlmUniqueID>
+            <ISSNLinking>1079-5006</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>ATP-Binding Cassette Transporters</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Multidrug Resistance-Associated Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>P-Glycoprotein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>RNA, Messenger</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>multidrug resistance-associated protein 1</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.6.3.44</RegistryNumber>
+                <NameOfSubstance>Abcb1b protein, mouse</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">ATP-Binding Cassette Transporters</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aging</DescriptorName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Dendritic Cells</DescriptorName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gene Expression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lung</DescriptorName>
+                <QualifierName MajorTopicYN="N">cytology</QualifierName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Macrophages, Alveolar</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice, Inbred BALB C</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Multidrug Resistance-Associated Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">P-Glycoprotein</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">RNA, Messenger</DescriptorName>
+                <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">T-Lymphocytes</DescriptorName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">gls069</ArticleId>
+            <ArticleId IdType="doi">10.1093/gerona/gls069</ArticleId>
+            <ArticleId IdType="pubmed">22451472</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">22365841</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>03</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1873-2518</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>30</Volume>
+                    <Issue>16</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Mar</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Vaccine</Title>
+                <ISOAbbreviation>Vaccine</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Enhancement of protective immunity against intracellular bacteria using type-1 polarized dendritic cell (DC) vaccine.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2633-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>The development of effective vaccine strategies for intracellular bacteria, including tuberculosis, is one of the major frontiers of medical research. Our previous studies showed that dendritic cell (DC) vaccine is a promising approach for eliciting protective immunity against intracellular bacteria. However, it has been reported that standard fully mature DCs show reduced ability to produce IL-12p70 upon subsequent interaction with antigen (Ag)-specific T cells, limiting their in vivo performance for vaccines. Recently, we found that such &quot;DC exhaustion&quot; could be prevented by the presence of IL-4 and IFN-γ during the maturation of mouse DCs (type-1 polarization), resulting in improved induction of anti-tumor immunity in cancer. Here we show that such type-1 polarized DCs promote dramatic enhancement of protective immunity against an intracellular bacterium, Listeria monocytogenes. Murine bone marrow-derived DCs were cultured and matured with LPS, IL-4 and IFN-γ (type-1 polarized DCs), and with LPS alone (non-polarized DCs). DCs were loaded with listeriolysin O (LLO) 91-99, H2-K(d)-restricted epitope of L. monocytogenes, and were injected into naïve BALB/c mice intravenously. Type-1 polarized DCs produced significantly higher levels of IL-12p70 than non-polarized DCs in vitro, and this vaccine strongly enhanced LLO 91-99-specific CD8(+) T cells exhibiting epitope-specific cytotoxic activity and IFN-γ production, leading to significant induction of protective immunity against L. monocytogenes. Type-1 polarized DCs are potential candidates for enhancing protective immunity in the design of effective vaccination strategies against intracellular bacteria.</AbstractText>
+                <CopyrightInformation>Copyright Â© 2012 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, Hamamatsu, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kono</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Uchijima</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsujimura</LastName>
+                    <ForeName>Kunio</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nagata</LastName>
+                    <ForeName>Toshi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Giermasz</LastName>
+                    <ForeName>Adam S</ForeName>
+                    <Initials>AS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kalinski</LastName>
+                    <ForeName>Pawel</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Hirotoshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>02</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Vaccine</MedlineTA>
+            <NlmUniqueID>8406899</NlmUniqueID>
+            <ISSNLinking>0264-410X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>11</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>28</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>3</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0264-410X(12)00209-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.vaccine.2012.02.026</ArticleId>
+            <ArticleId IdType="pubmed">22365841</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">22705118</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>08</Month>
+            <Day>20</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-8332</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>77</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Lung cancer (Amsterdam, Netherlands)</Title>
+                <ISOAbbreviation>Lung Cancer</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Biweekly combination therapy with gemcitabine and carboplatin compared with gemcitabine monotherapy in elderly patients with advanced non-small-cell lung cancer: a randomized, phase-II study.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>550-5</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.lungcan.2012.05.106</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">The strategy of chemotherapy in the elderly is controversial. We wanted to evaluate the efficacy and safety of biweekly gemcitabine and low-dose carboplatin combination therapy in elderly patients with advanced non-small-cell lung cancer (NSCLC).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this phase-II trial, chemotherapy-naive elderly patients (aged ≥76 years) with NSCLC were randomly treated with biweekly combination therapy with gemcitabine and carboplatin (1000 mg/m(2) gemcitabine and carboplatin at an area under the curve (AUC) of 3 on days 1 and 15, every 4 weeks) or gemcitabine monotherapy (1000 mg/m(2) on days 1, 8 and 15, every 4 weeks). The primary endpoint was overall response rate and analysis was based on intention-to-treat.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Thirty-one patients were randomly assigned combination therapy and 30 were assigned monotherapy. The median age was 79.0 years. Response rate was 22.6% (95% confidence interval (CI): 11.4-39.8%) for biweekly combination therapy and 10.0% (95% CI: 3.5-25.6%) for monotherapy. Median progression-free survival in combination chemotherapy was 3.9 months (95% CI: 0.5-8.5 months), which was significantly longer that that in monotherapy (2.4 months, 95% CI: 0.5-6.7 months). The prevalence of hematological and non-hematological adverse events reaching grade 3/4 was not significantly different between combination therapy and monotherapy.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Biweekly gemcitabine and low-dose carboplatin combination chemotherapy showed acceptable efficacy, toxicity, and tolerability in those aged ≥76 years with NSCLC. Further investigations with a large population are required to confirm our results.</AbstractText>
+                <CopyrightInformation>Copyright © 2012 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, 1-20-1 Handayama, Hamamatsu, 431-3192, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kusagaya</LastName>
+                    <ForeName>Hideki</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karayama</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kuroishi</LastName>
+                    <ForeName>Shigeki</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yokomura</LastName>
+                    <ForeName>Koshi</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Toyoshima</LastName>
+                    <ForeName>Mikio</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>Toshihiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Masuda</LastName>
+                    <ForeName>Masafumi</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yamada</LastName>
+                    <ForeName>Takashi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yasuda</LastName>
+                    <ForeName>Kazumasa</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>ClinicalTrials.gov</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>NCT00881296</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>06</Month>
+                <Day>15</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Ireland</Country>
+            <MedlineTA>Lung Cancer</MedlineTA>
+            <NlmUniqueID>8800805</NlmUniqueID>
+            <ISSNLinking>0169-5002</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2012</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>27</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0169-5002(12)00372-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.lungcan.2012.05.106</ArticleId>
+            <ArticleId IdType="pubmed">22705118</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">22747856</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>08</Month>
+            <Day>08</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1815-7920</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The international journal of tuberculosis and lung disease : the official journal of the International Union against Tuberculosis and Lung Disease</Title>
+                <ISOAbbreviation>Int. J. Tuberc. Lung Dis.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Drug lymphocyte stimulation test is not useful for side effects of anti-tuberculosis drugs despite its timing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1265-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Some patients have adverse reactions to anti-tuberculosis drugs. We have reported that drug lymphocyte stimulation testing (DLST), which we performed at Week 1 of adverse reactions, provides little useful information (14.9% sensitivity). However, it remains unclear whether the time of performance of the DLST contributed to these results.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Patients with adverse reactions to anti-tuberculosis drugs, including rash, hepatitis and fever, underwent DLST in the first week of the adverse reaction and were then randomly assigned to Group A (among whom a second DLST was performed 2 months after the reaction) or Group B (among whom a second DLST was performed &gt;12 months after the reaction). We compared Group A with Group B to determine the optimal timing for the performance of DLST. The causative drug was identified by an oral drug provocation test.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Consistent with the previous study, the sensitivity of DLST performed in the first week was low (14.3%). For DLST performed later, the sensitivity in Group A and Group B was respectively 5.0% and 6.7%.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">DLST is not useful for determining the causative drug in patients with rash, hepatitis or fever reactions to anti-tuberculosis drugs, regardless of when it is performed.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Respiratory Medicine, Tenryu Hospital, National Hospital Organization, Hamamatsu, Japan. miwamaro11@yahoo.co.jp</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Miwa</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ohba</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kanai</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eifuku</LastName>
+                    <ForeName>T</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>T</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayakawa</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>06</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>France</Country>
+            <MedlineTA>Int J Tuberc Lung Dis</MedlineTA>
+            <NlmUniqueID>9706389</NlmUniqueID>
+            <ISSNLinking>1027-3719</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>7</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">ijtld110163</ArticleId>
+            <ArticleId IdType="doi">10.5588/ijtld.11.0163</ArticleId>
+            <ArticleId IdType="pubmed">22747856</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">23117106</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>11</Month>
+            <Day>5</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1878-1519</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Oct</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Respiratory physiology &amp; neurobiology</Title>
+                <ISOAbbreviation>Respir Physiol Neurobiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Respiratory mechanics measured by forced oscillation technique in combined pulmonary fibrosis and emphysema.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">S1569-9048(12)00312-6</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.resp.2012.10.009</ELocationID>
+            <Abstract>
+                <AbstractText>The coexistence of emphysema and pulmonary fibrosis is known as combined pulmonary fibrosis and emphysema (CPFE). The aim of this study was to compare the lung mechanics measured by multi-frequency forced oscillation technique (FOT) among patients with CPFE, interstitial pneumonia (IP), and chronic obstructive pulmonary disease (COPD). FOT and pulmonary function tests were performed in 41 patients with CPFE, 47 with IP, and 86 with COPD. Whole-breath resistance at 20Hz was significantly lower in patients with CPFE than in those with IP or COPD, irrespective of the severity of airflow limitation. Within-breath analyses of resistance revealed no difference among the 3 groups; however, the difference between inspiratory and expiratory phases of reactance at 5Hz, which reflects expiratory flow limitation, in patients with CPFE was significantly higher than in those with IP and lower than in those with COPD. In conclusion, both emphysema and fibrosis affect lung mechanics in CPFE, leading to different findings from IP or COPD alone.</AbstractText>
+                <CopyrightInformation>Copyright © 2012. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Respiratory Medicine, Shizuoka General Hospital, Shizuoka, Japan; Department of Respiratory Medicine, Hamamatsu University School of Medicine, Hamamatsu, Japan. Electronic address: mori-kazutaka@tokai.or.jp.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Mori</LastName>
+                    <ForeName>Kazutaka</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Shirai</LastName>
+                    <ForeName>Toshihiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author>
+                    <LastName>Mikamo</LastName>
+                    <ForeName>Masashi</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Shishido</LastName>
+                    <ForeName>Yuichiro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author>
+                    <LastName>Akita</LastName>
+                    <ForeName>Takefumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author>
+                    <LastName>Morita</LastName>
+                    <ForeName>Satoru</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Asada</LastName>
+                    <ForeName>Kazuhiro</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Fujii</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hozumi</LastName>
+                    <ForeName>Hironao</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author>
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>29</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Respir Physiol Neurobiol</MedlineTA>
+            <NlmUniqueID>101140022</NlmUniqueID>
+            <ISSNLinking>1569-9048</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>11</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S1569-9048(12)00312-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.resp.2012.10.009</ArticleId>
+            <ArticleId IdType="pubmed">23117106</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22560113</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>06</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>09</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-3064</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>106</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Aug</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Respiratory medicine</Title>
+                <ISOAbbreviation>Respir Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Rheumatoid lung disease: prognostic analysis of 54 biopsy-proven cases.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1164-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To investigate the prognostic significance of histopathological characteristics in patients with biopsy-proven rheumatoid lung disease (RLD).</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Retrospective analysis was conducted on samples from 54 RLD patients who underwent surgical lung biopsies (SLBs) at Hamamatsu University Hospital and affiliated hospitals between 1980 and 2009. The overall survival rate, the spectrum of histopathological diagnosis and their associated prognostic significance were investigated.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The study group consisted of 30 men and 24 women with a median age of 60.3 years. Histopathological analysis revealed the following: usual interstitial pneumonia (UIP), 15 cases; nonspecific interstitial pneumonia/fibrosis, 16 cases; organizing pneumonia, 4 cases; unclassifiable, 2 cases; desquamative interstitial pneumonia, 1 case; and bronchiolar disease, 16 cases. In survival outcome, 10 yr survival rate was 76.6%. Patients with UIP had significantly worse prognosis than those with non-UIP (RLD cases except those with UIP) (p = 0.0452).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">RLD includes several histopathological groups. Patients with UIP have worse survival than those with other types of RLD. Histopathological diagnosis may have a major impact on prognostication in patients with RLD.</AbstractText>
+                <CopyrightInformation>Copyright © 2012 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, 1-20-1 Handayama, Hamamatsu, Shizuoka 431-3192, Japan. nakayuta@hama-med.ac.jp</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kaida</LastName>
+                    <ForeName>Yusuke</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kono</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hozumi</LastName>
+                    <ForeName>Hironao</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hashimoto</LastName>
+                    <ForeName>Dai</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Enomoto</LastName>
+                    <ForeName>Noriyuki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujisawa</LastName>
+                    <ForeName>Tomoyuki</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Imokawa</LastName>
+                    <ForeName>Shiro</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yasuda</LastName>
+                    <ForeName>Kazumasa</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>Toshihiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suganuma</LastName>
+                    <ForeName>Hideki</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Morita</LastName>
+                    <ForeName>Satoru</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayakawa</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Takehara</LastName>
+                    <ForeName>Yasuo</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Colby</LastName>
+                    <ForeName>Thomas V</ForeName>
+                    <Initials>TV</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Multicenter Study</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>05</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Respir Med</MedlineTA>
+            <NlmUniqueID>8908438</NlmUniqueID>
+            <ISSNLinking>0954-6111</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Arthritis, Rheumatoid</DescriptorName>
+                <QualifierName MajorTopicYN="Y">complications</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Biopsy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cause of Death</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lung</DescriptorName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lung Diseases, Interstitial</DescriptorName>
+                <QualifierName MajorTopicYN="Y">etiology</QualifierName>
+                <QualifierName MajorTopicYN="N">pathology</QualifierName>
+                <QualifierName MajorTopicYN="N">radiography</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Survival Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Tomography, X-Ray Computed</DescriptorName>
+                <QualifierName MajorTopicYN="N">methods</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>11</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>4</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>8</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>9</Month>
+                <Day>7</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0954-6111(12)00156-4</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.rmed.2012.04.004</ArticleId>
+            <ArticleId IdType="pubmed">22560113</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22349065</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>03</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>05</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-3064</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>106</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Respiratory medicine</Title>
+                <ISOAbbreviation>Respir Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Clinical characteristics and prognosis of chronic pulmonary aspergillosis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>724-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The details of the clinical characteristics of patients with chronic pulmonary aspergillosis (CPA) have not been fully understood.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">One hundred twenty-nine consecutive patients with isolation of Aspergillus species by culture from respiratory specimens who attended our hospital between October 2001 and September 2009 were enrolled. Patients diagnosed with chronic pulmonary aspergillosis (CPA) were retrospectively reviewed for clinical characteristics and prognosis, compared with patients with Aspergillus species colonization.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Forty-two (32.6%) were diagnosed with CPA, whereas 87 (67.4%) with colonization. Aspergillus fumigatus was significantly more frequently detected in the CPA group than in the colonization group. Regarding underlying diseases, CPA patients had a significantly higher prevalence of a history of pulmonary tuberculosis and diabetes mellitus than colonization patients. There were no significant differences between the CPA and colonization group in Aspergillus antigen titers. Positivity for Aspergillus precipitating antibody was 74.3% in CPA and 15.8% in colonization, respectively. Sensitivity and specificity of Aspergillus precipitating antibody for the determination of CPA was 74.4% and 84.1%, respectively.Patients with CPA had significantly shorter survival than patients with colonization (mortality rate 50.0% vs. 13.8%, observation periods: 28.7 ± 26.6 months) (p &lt; 0.0001). Multivariable analysis revealed that BMI was an independent predictor of prognosis (Odds Ratio, 1.973; p = 0.0223).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">CPA is a disease with a poor prognosis, which shows distinct clinical characteristics from colonization.</AbstractText>
+                <CopyrightInformation>Copyright © 2012 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Department of Respiratory Medicine, Tenryu Hospital, National Hospital Organization, 4201-2, Hamamatsu 434-8511, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ohba</LastName>
+                    <ForeName>Hisano</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miwa</LastName>
+                    <ForeName>Seiichi</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>Masahiro</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kanai</LastName>
+                    <ForeName>Miho</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eifuku</LastName>
+                    <ForeName>Tatsuru</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayakawa</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>02</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Respir Med</MedlineTA>
+            <NlmUniqueID>8908438</NlmUniqueID>
+            <ISSNLinking>0954-6111</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antibodies, Fungal</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antigens, Fungal</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antibodies, Fungal</DescriptorName>
+                <QualifierName MajorTopicYN="N">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antigens, Fungal</DescriptorName>
+                <QualifierName MajorTopicYN="N">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aspergillus</DescriptorName>
+                <QualifierName MajorTopicYN="N">classification</QualifierName>
+                <QualifierName MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName MajorTopicYN="N">isolation &amp; purification</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Body Mass Index</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Chronic Disease</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Invasive Pulmonary Aspergillosis</DescriptorName>
+                <QualifierName MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="N">microbiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Kaplan-Meier Estimate</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Pulmonary Aspergillosis</DescriptorName>
+                <QualifierName MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="N">microbiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Sensitivity and Specificity</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>9</Month>
+                <Day>9</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0954-6111(12)00069-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.rmed.2012.01.014</ArticleId>
+            <ArticleId IdType="pubmed">22349065</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22219312</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>02</Month>
+            <Day>28</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>06</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2012</Year>
+            <Month>09</Month>
+            <Day>27</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1556-679X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>19</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Clinical and vaccine immunology : CVI</Title>
+                <ISOAbbreviation>Clin. Vaccine Immunol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Serum indoleamine 2,3-dioxygenase activity predicts prognosis of pulmonary tuberculosis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>436-42</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Tuberculosis (TB) continues to be a major health problem, and there are few biomarkers for predicting prognosis. Indoleamine 2,3-dioxygenase (IDO), a potent immunoregulatory molecule, catalyzes the rate-limiting step of tryptophan (Trp) degradation in the kynurenine (Kyn) pathway. An increase in IDO activity determined by the serum Trp/Kyn ratio has been shown to be associated with poor prognosis in cancers and bacteremia. In TB, however, there are no studies measuring serum IDO activity to determine its clinical significance. We evaluated serum IDO activity with 174 pulmonary TB (PTB) patients and 85 controls, using liquid chromatography/electrospray ionization tandem mass spectrometry. IDO activity was estimated by calculating the serum Kyn-to-Trp ratio. PTB patients had significantly higher Kyn concentrations and IDO activity and significantly lower Trp concentrations (P &lt; 0.0001, P &lt; 0.0001, and P &lt; 0.0001, respectively) than the controls. Of 174 PTB patients, 39 (22.4%) died. The patients who died had significantly higher concentrations of Kyn and significantly lower Trp concentrations, resulting in significantly higher IDO activity (P &lt; 0.0001, P &lt; 0.0001, and P &lt; 0.0001, respectively). In a receiver operating characteristic (ROC) analysis, serum IDO activity had the highest area under the curve (0.850), and this activity was an independent prognostic factor in multivariate analysis. These results suggest that serum IDO activity can be used as a novel prognostic marker in PTB.</AbstractText>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, Hamamatsu, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Yuzo</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Asada</LastName>
+                    <ForeName>Kazuhiro</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miwa</LastName>
+                    <ForeName>Seiichi</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Masako</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujie</LastName>
+                    <ForeName>Michio</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Furuhashi</LastName>
+                    <ForeName>Kazuki</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>Toshihiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hayakawa</LastName>
+                    <ForeName>Hiroshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Hirotoshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Evaluation Studies</PublicationType>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>01</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Clin Vaccine Immunol</MedlineTA>
+            <NlmUniqueID>101252125</NlmUniqueID>
+            <ISSNLinking>1556-679X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Biological Markers</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>343-65-7</RegistryNumber>
+                <NameOfSubstance>Kynurenine</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>73-22-3</RegistryNumber>
+                <NameOfSubstance>Tryptophan</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 1.13.11.42</RegistryNumber>
+                <NameOfSubstance>Indoleamine-Pyrrole 2,3,-Dioxygenase</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Rev Immunol. 2004 Oct;4(10):762-74</RefSource>
+                <PMID Version="1">15459668</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2005 Mar 1;174(5):2910-8</RefSource>
+                <PMID Version="1">15728502</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Chim Acta. 2006 Feb;364(1-2):82-90</RefSource>
+                <PMID Version="1">16139256</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Cancer Res. 2006 Feb 15;12(4):1144-51</RefSource>
+                <PMID Version="1">16489067</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Br J Cancer. 2006 Dec 4;95(11):1555-61</RefSource>
+                <PMID Version="1">17117179</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Invest. 2007 May;117(5):1147-54</RefSource>
+                <PMID Version="1">17476344</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Immunol Rev. 2008 Apr;222:206-21</RefSource>
+                <PMID Version="1">18364004</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Microbes Infect. 2009 Jan;11(1):133-41</RefSource>
+                <PMID Version="1">19007906</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2009 Mar 1;182(5):3146-54</RefSource>
+                <PMID Version="1">19234212</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet Infect Dis. 2009 Mar;9(3):162-72</RefSource>
+                <PMID Version="1">19246020</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2009 Jul 1;183(1):718-31</RefSource>
+                <PMID Version="1">19535630</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Infect Dis. 2010 Mar 15;201(6):956-66</RefSource>
+                <PMID Version="1">20151841</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2010 May 29;375(9729):1920-37</RefSource>
+                <PMID Version="1">20488517</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cell Mol Immunol. 2011 Mar;8(2):172-80</RefSource>
+                <PMID Version="1">21258363</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Infect. 2011 Sep;63(3):215-22</RefSource>
+                <PMID Version="1">21784100</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Kekkaku. 2011 Feb;86(2):127-30</RefSource>
+                <PMID Version="1">21404656</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Dermatology. 2007;214(1):8-14</RefSource>
+                <PMID Version="1">17191041</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lung Cancer. 2010 Mar;67(3):361-5</RefSource>
+                <PMID Version="1">19487045</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Shock. 2010 Feb;33(2):149-54</RefSource>
+                <PMID Version="1">19487973</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Med. 2010 Mar;16(3):279-85</RefSource>
+                <PMID Version="1">20190767</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1998 Aug 21;281(5380):1191-3</RefSource>
+                <PMID Version="1">9712583</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Infect Immun. 2001 Oct;69(10):6156-64</RefSource>
+                <PMID Version="1">11553555</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Med. 2003 Oct;9(10):1269-74</RefSource>
+                <PMID Version="1">14502282</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nat Immunol. 2004 Mar;5(3):266-71</RefSource>
+                <PMID Version="1">14758358</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Biological Markers</DescriptorName>
+                <QualifierName MajorTopicYN="N">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Chromatography, Liquid</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Indoleamine-Pyrrole 2,3,-Dioxygenase</DescriptorName>
+                <QualifierName MajorTopicYN="Y">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Kynurenine</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Prospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">ROC Curve</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Serum</DescriptorName>
+                <QualifierName MajorTopicYN="Y">enzymology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Spectrometry, Mass, Electrospray Ionization</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Tandem Mass Spectrometry</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Tryptophan</DescriptorName>
+                <QualifierName MajorTopicYN="N">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Tuberculosis, Pulmonary</DescriptorName>
+                <QualifierName MajorTopicYN="Y">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="Y">pathology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3294601</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>6</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">CVI.05402-11</ArticleId>
+            <ArticleId IdType="doi">10.1128/CVI.05402-11</ArticleId>
+            <ArticleId IdType="pubmed">22219312</ArticleId>
+            <ArticleId IdType="pmc">PMC3294601</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22268142</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>06</Month>
+            <Day>04</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>08</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1535-4989</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>46</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>American journal of respiratory cell and molecular biology</Title>
+                <ISOAbbreviation>Am. J. Respir. Cell Mol. Biol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Mouse CD11bhigh lung dendritic cells have more potent capability to induce IgA than CD103+ lung dendritic cells in vitro.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>773-80</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Lung dendritic cells (LDCs) are primary antigen-presenting cells that develop IgA-producing plasma cells in the lung through class switch recombination (CSR) in naive B cells. Recently, the major LDC subsets were found to comprise CD103(-)CD11b(high) LDCs (CD11b(high) LDCs) and CD103(+)CD11b(low or negative) LDCs (CD103(+) LDCs), but their abilities to induce IgA production have not been defined. Under T cell-dependent (T-D) and T cell-independent (T-ID) conditions, we compared the abilities of these two LDC populations to induce IgA. CD11b(high) or CD103(+) LDCs obtained from BALB/c mice were cocultured with naive IgD(+) B cells in the presence of LPS, with or without anti-CD40 monoclonal antibody (mAb) (i.e., T-D and T-ID coculture conditions, respectively). Under both T-D and T-ID conditions, CD11b(high) LDCs induced significantly greater amounts of IgA production, together with a significantly higher mRNA expression of activation-induced cytidine deaminase, than did CD103(+) LDCs. However, the protein expression of a proliferation-inducing ligand, B cell-activating factor of the tumor necrosis family, or retinaldehyde dehydrogenase-1 did not differ between the two LDC subsets. CD11b(high) LDCs displayed a significantly greater capacity to secrete IL-6 and IL-10 in response to LPS, with or without anti-CD40 mAb. Moreover, the IgA production induced by CD11b(high) LDCs in T-D coculture was attenuated by neutralizing both IL-6 and IL-10. These findings suggest that, of the two major LDCs, CD11b(high) LDCs more efficiently induce IgA than do CD103(+) LDCs, possibly through their potent capacity to produce IgA-inducing cytokines.</AbstractText>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, 1-20-1 Handayama Higashi-ku, Hamamatsu, Shizuoka, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Yuzo</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Furuhashi</LastName>
+                    <ForeName>Kazuki</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shibata</LastName>
+                    <ForeName>Kiyoshi</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hashimoto</LastName>
+                    <ForeName>Dai</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Enomto</LastName>
+                    <ForeName>Noriyuki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujisawa</LastName>
+                    <ForeName>Tomoyuki</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Hirotoshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>01</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Am J Respir Cell Mol Biol</MedlineTA>
+            <NlmUniqueID>8917225</NlmUniqueID>
+            <ISSNLinking>1044-1549</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antigens, CD</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Antigens, CD11b</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Immunoglobulin A</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Integrin alpha Chains</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>alpha E integrins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antigens, CD</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Antigens, CD11b</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Blotting, Western</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Dendritic Cells</DescriptorName>
+                <QualifierName MajorTopicYN="N">cytology</QualifierName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Immunoglobulin A</DescriptorName>
+                <QualifierName MajorTopicYN="Y">biosynthesis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Integrin alpha Chains</DescriptorName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Lung</DescriptorName>
+                <QualifierName MajorTopicYN="N">cytology</QualifierName>
+                <QualifierName MajorTopicYN="Y">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>8</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">rcmb.2011-0329OC</ArticleId>
+            <ArticleId IdType="doi">10.1165/rcmb.2011-0329OC</ArticleId>
+            <ArticleId IdType="pubmed">22268142</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">23037488</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>10</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1349-7235</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>51</Volume>
+                    <Issue>19</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Internal medicine (Tokyo, Japan)</Title>
+                <ISOAbbreviation>Intern. Med.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Asymptomatic congenital lobar emphysema in a young adult.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2839-40</MedlinePgn>
+            </Pagination>
+            <Affiliation>Department of Respiratory Medicine, Hamamatsu Rosai Hospital, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Toyoshima</LastName>
+                    <ForeName>Mikio</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>01</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Japan</Country>
+            <MedlineTA>Intern Med</MedlineTA>
+            <NlmUniqueID>9204241</NlmUniqueID>
+            <ISSNLinking>0918-2918</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">DN/JST.JSTAGE/internalmedicine/51.8466</ArticleId>
+            <ArticleId IdType="pubmed">23037488</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22265857</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>03</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>05</Month>
+            <Day>10</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2012</Year>
+            <Month>11</Month>
+            <Day>09</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-3064</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>106</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Respiratory medicine</Title>
+                <ISOAbbreviation>Respir Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Impact of add-on pranlukast in stable asthma; the additive effect on peripheral airway inflammation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>508-14</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.rmed.2011.12.014</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The importance of airway inflammation has been highlighted in the pathophysiology of asthma. Even in controlled asthmatics treated with inhaled corticosteroid (ICS), residual airway inflammation is reported. Systemic therapy with oral leukotriene receptor antagonist, pranlukast, may have additive effects to improve asthma control.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Twenty-five controlled asthmatics treated with ICS or ICS plus long-acting β2-agonist (LABA) were enrolled for a randomized crossover trial evaluating the effect of additional oral pranlukast. The patients were assigned to two groups receiving ICS (+LABA) or ICS (+LABA) + pranlukast for 8 weeks. After washout period, two groups were switched over for another 8 weeks. Fraction of exhaled nitric oxide (FeNO), lung function tests, peak expiratory flow (PEF) and asthma control test (ACT) were evaluated at the beginning and end of each period. Central airway NO flux (J'(awNO)) and peripheral airway/alveolar NO concentration (C(ANO)) were measured and adjusted for axial NO back-diffusion.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">FEV1, % predicted, forced expired flow (FEF) (25-75), % predicted, morning PEF and ACT were significantly increased after the addition of pranlukast. Oral pranlukast administration significantly decreased both C(ANO) and corrected C(ANO).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The addition of oral pranlukast to ICS or ICS + LABA therapy may improve asthma control with reducing distal airway inflammation. Trial registration: UMIN 000003781.</AbstractText>
+                <CopyrightInformation>Copyright Â© 2012 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <Affiliation>Second Division, Department of Internal Medicine, Hamamatsu University School of Medicine, Hamamatsu, Japan. yassy19781119@yahoo.co.jp</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yasui</LastName>
+                    <ForeName>Hideki</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fujisawa</LastName>
+                    <ForeName>Tomoyuki</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Inui</LastName>
+                    <ForeName>Naoki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kato</LastName>
+                    <ForeName>Masato</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hashimoto</LastName>
+                    <ForeName>Dai</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Enomoto</LastName>
+                    <ForeName>Noriyuki</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Yutaro</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shirai</LastName>
+                    <ForeName>Toshihiro</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suda</LastName>
+                    <ForeName>Takafumi</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nakamura</LastName>
+                    <ForeName>Hirotoshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chida</LastName>
+                    <ForeName>Kingo</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Randomized Controlled Trial</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>01</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Respir Med</MedlineTA>
+            <NlmUniqueID>8908438</NlmUniqueID>
+            <ISSNLinking>0954-6111</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Adrenergic beta-2 Receptor Agonists</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Anti-Asthmatic Agents</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Chromones</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Glucocorticoids</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Leukotriene Antagonists</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>pranlukast</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>10102-43-9</RegistryNumber>
+                <NameOfSubstance>Nitric Oxide</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Administration, Oral</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adrenergic beta-2 Receptor Agonists</DescriptorName>
+                <QualifierName MajorTopicYN="N">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged, 80 and over</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Anti-Asthmatic Agents</DescriptorName>
+                <QualifierName MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="N">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName MajorTopicYN="N">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Chromones</DescriptorName>
+                <QualifierName MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="Y">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cross-Over Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Drug Therapy, Combination</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Glucocorticoids</DescriptorName>
+                <QualifierName MajorTopicYN="N">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Leukotriene Antagonists</DescriptorName>
+                <QualifierName MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="N">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Nitric Oxide</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Respiratory Mechanics</DescriptorName>
+                <QualifierName MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Treatment Outcome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Young Adult</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>6</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>5</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0954-6111(12)00024-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.rmed.2011.12.014</ArticleId>
+            <ArticleId IdType="pubmed">22265857</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
