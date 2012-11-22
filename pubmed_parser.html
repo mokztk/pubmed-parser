@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <title>PubMed XML parser</title>
@@ -15,7 +15,7 @@
             $("#selectfile").change(function(e){
                 files = e.target.files;
                 reader = new FileReader();
-                reader.onload = function(re){           // 読み込み成功
+                reader.onload = function(re){           // 読み込み完了時の処理
                     // XMLから必要なデータを取り出す
                     parseArticles(re.target.result);
                     
@@ -30,14 +30,18 @@
                     // 業績集打ち出し用テンプレート例
                     //  var tbl_template  = "<tr><td>";
                     //      tbl_template += "{authors}：{title}．{j_abbr} {j_vol_no}:{j_page}, {j_year}.";
-                    //     tbl_template += "</td></tr>";
+                    //      tbl_template += "</td></tr>";
                     
                     $("#outputarea").html(createArticleTable(tbl_template));
                 };
                 reader.onerror = function(re){          // 読み込みエラー
                     alert(files[0] + "を読み込めません。");
+                    return false;
                 };
-                reader.readAsText(files[0]);            // 読み込むファイルは1つだけ
+                
+                // 選択されたファイルをテキスト形式で読み込む
+                $("#outputarea").html("<p>ファイル [ " + files[0].name +" ] を読み込んで解析しています…</p>");
+                reader.readAsText(files[0]);
             });
         });
         
@@ -80,8 +84,6 @@
             
             // 作業スペースの確保
             var i, j;
-            var author  = {};
-            var journal = {};
             var article = {};
             
             // 文献リストを初期化し論文数を記録
@@ -90,13 +92,10 @@
             
             // 抽出作業
             for (i = 0; i < pm_articles.length; i++){
+                article = {author: {}, title: "", journal: {}};     // 初期化
                 
-                // 初期化
-                journal = {name: "", abbr: "", year: "", month: "", vol: "", no: "", page: ""}
-                article = {author: {}, title: "", journal: {}};
-                
-                // 雑誌情報の取得
-                journal = {
+                // 雑誌情報の取り出し
+                article.journal = {
                     abbr    : $("Journal > ISOAbbreviation" , pm_articles[i]).text(),
                     name    : $("Journal > Title"           , pm_articles[i]).text(),
                     year    : $("PubDate > Year"            , pm_articles[i]).text(),
@@ -105,23 +104,19 @@
                     no      : $("Issue"                     , pm_articles[i]).text(),
                     page    : $("MedlinePgn"                , pm_articles[i]).text()
                 };
-                article.journal = journal;
-                article.title   = $("ArticleTitle", pm_articles[i]).text();
+                // 題名の最後に入っている「.」は取り除いて登録
+                article.title   = $("ArticleTitle", pm_articles[i]).text().replace(/\.$/,"");
                 
                 // 著者リストの作成
-                for (j = 0; j < $("Author", pm_articles[i]).length; j++){
-                    // 1名分を取得
-                    author  = {fullname: "", shortname: ""};
-                    var authname = $("Author", pm_articles[i])[j];
-                    
-                    // 順番に著者リストに追加
-                    author.shortname = $("LastName", authname).text() + " " + $("Initials", authname).text();
-                    author.fullname  = $("LastName", authname).text() + " " + $("ForeName", authname).text();
-                    article.author[j] = author;
-                }
-                
-                // 著者人数を記録
                 article.author.number = $("Author", pm_articles[i]).length;
+                for (j = 0; j < article.author.number; j++){
+                    // 1名分を取得し、順番に著者リストに追加
+                    var authname = $("Author", pm_articles[i])[j];
+                    article.author[j] = {
+                        shortname : $("LastName", authname).text() + " " + $("Initials", authname).text(),
+                        fullname  : $("LastName", authname).text() + " " + $("ForeName", authname).text()
+                    };
+                }
                 
                 // 論文リストに追加
                 articlelist[i] = article;
@@ -133,6 +128,7 @@
         // -------------------------------------------------------------------------
         // createArticleTable : 受け取ったテンプレートにそって文献リストを作る
         // -------------------------------------------------------------------------
+        //  テンプレートは <tr>～</tr> のテーブル1行分の内容を記載した文字列
         //  テンプレート中の下記の文字列は各論文の情報で置換される
         //      {number}        通し番号
         //      {authors}       全著者　（短縮形式）
@@ -158,7 +154,8 @@
             var th_template = tbl_template.replace(/td/g, "th");
             
             // 作業用
-            var i, j;
+            var i, j, num;
+            var article   = {};
             var tablehtml = "";
             var auth_1st  = "", auth_1st_f = "";
             var co_auth   = "", co_auth_f  = "";
@@ -183,26 +180,27 @@
                                     .replace(/{j_vol}/g,        "巻")
                                     .replace(/{j_no}/g,         "号")
                                     .replace(/{j_vol_no}/g,     "巻号")
-                                    .replace(/{j_page}/g,       "Page")
+                                    .replace(/{j_page}/g,       "頁")
                                     .replace(/{title}/g,        "題名");
             tablehtml += "\n";
             
             // 各文献の記事
             for (i = 0; i < articlelist.number; i++){
+                article = articlelist[i];
+                num     = article.author.number;
+                
                 // 筆頭著者と共著者を分けてリストを作り、全著者リストも作る
                 co_auth    = "";
                 co_auth_f  = "";
-                auth_1st   = articlelist[i].author[0].shortname;
-                auth_1st_f = articlelist[i].author[0].fullname;
-                for (j = 1; j < articlelist[i].author.number -1; j++){
-                    co_auth   += articlelist[i].author[j].shortname + ", ";
-                    co_auth_f += articlelist[i].author[j].fullname + ", ";
+                auth_1st   = article.author[0].shortname;
+                auth_1st_f = article.author[0].fullname;
+                for (j = 1; j < num -1; j++){
+                    co_auth   += article.author[j].shortname + ", ";
+                    co_auth_f += article.author[j].fullname + ", ";
                 }
-                if (articlelist[i].author.number > 1){
-                    co_auth   += articlelist[i].author[articlelist[i].author.number -1].shortname;
-                    co_auth_f += articlelist[i].author[articlelist[i].author.number -1].fullname;
-                }
-                if (articlelist[i].author.number>1){
+                if (num > 1){
+                    co_auth   += article.author[num -1].shortname;
+                    co_auth_f += article.author[num -1].fullname;
                     authors    = auth_1st   +  ", " + co_auth;
                     authors_f  = auth_1st_f +  ", " + co_auth_f;
                 } else {
@@ -211,29 +209,29 @@
                 }
                 
                 // 巻号
-                if (articlelist[i].journal.no >= 1){
-                    vol_no = articlelist[i].journal.vol + "(" + articlelist[i].journal.no + ")";
+                if (article.journal.no >= 1){
+                    vol_no = article.journal.vol + "(" + article.journal.no + ")";
                 } else {
-                    vol_no = articlelist[i].journal.vol;
+                    vol_no = article.journal.vol;
                 }
                 
                 // 各文献について書き込み
-                tablehtml += tbl_template.replace(/{number}/g,      i+1)
-                                        .replace(/{authors}/g,      authors)
-                                        .replace(/{1st_auth}/g,     auth_1st)
-                                        .replace(/{co_auth}/g,      co_auth)
-                                        .replace(/{authors_f}/g,    authors_f)
-                                        .replace(/{1st_auth_f}/g,   auth_1st_f)
-                                        .replace(/{co_auth_f}/g,    co_auth_f)
-                                        .replace(/{j_abbr}/g,       articlelist[i].journal.abbr)
-                                        .replace(/{j_name}/g,       articlelist[i].journal.name)
-                                        .replace(/{j_year}/g,       articlelist[i].journal.year)
-                                        .replace(/{j_month}/g,      articlelist[i].journal.month)
-                                        .replace(/{j_vol}/g,        articlelist[i].journal.vol)
-                                        .replace(/{j_no}/g,         articlelist[i].journal.no)
-                                        .replace(/{j_vol_no}/g,     vol_no)
-                                        .replace(/{j_page}/g,       articlelist[i].journal.page)
-                                        .replace(/{title}/g,        articlelist[i].title);
+                tablehtml += tbl_template.replace(/{number}/g,       i+1)
+                                         .replace(/{authors}/g,      authors)
+                                         .replace(/{1st_auth}/g,     auth_1st)
+                                         .replace(/{co_auth}/g,      co_auth)
+                                         .replace(/{authors_f}/g,    authors_f)
+                                         .replace(/{1st_auth_f}/g,   auth_1st_f)
+                                         .replace(/{co_auth_f}/g,    co_auth_f)
+                                         .replace(/{j_abbr}/g,       article.journal.abbr)
+                                         .replace(/{j_name}/g,       article.journal.name)
+                                         .replace(/{j_year}/g,       article.journal.year)
+                                         .replace(/{j_month}/g,      article.journal.month)
+                                         .replace(/{j_vol}/g,        article.journal.vol)
+                                         .replace(/{j_no}/g,         article.journal.no)
+                                         .replace(/{j_vol_no}/g,     vol_no)
+                                         .replace(/{j_page}/g,       article.journal.page)
+                                         .replace(/{title}/g,        article.title);
                 tablehtml += "\n";
             }
             
