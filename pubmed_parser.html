@@ -84,6 +84,7 @@
             
             // 作業スペースの確保
             var i, j;
+            var pmdate  = "";
             var article = {};
             
             // 文献リストを初期化し論文数を記録
@@ -104,6 +105,12 @@
                     no      : $("Issue"                     , pm_articles[i]).text(),
                     page    : $("MedlinePgn"                , pm_articles[i]).text()
                 };
+                
+                // 違う書式（2010 Mar-Apr）で発行年月が記載されている文献への対応
+                if ((pmdate = $("PubDate > MedlineDate", pm_articles[i]).text()) != ""){
+                    article.journal.year  = pmdate.split(" ")[0];
+                    article.journal.month = pmdate.split(" ")[1];
+                }
                 // 題名の最後に入っている「.」は取り除いて登録
                 article.title   = $("ArticleTitle", pm_articles[i]).text().replace(/\.$/,"");
                 
